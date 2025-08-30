@@ -1,6 +1,11 @@
 @authors:    David Gonzalez & Dillon Gonzalez
 @date:       8/20/2025
 
+How to run: From the top toolbar hover over "Run" and then click "Edit Configuration." From here you will need to
+            select "Application" as an option and then set main class as "SimulatedScheduler" and add in the
+            desired arguments. For example "FIFO 15 2 3 4 5" once this has been saved hover over "Run" again
+            and choose your named configuration for execution.
+
 Description: This is a simulated scheduler that simulates FIFO, SJF & Round-Robin.
              Round-Robin will utilize quantum numbers to ensure resource usage and
              prevent starvation.

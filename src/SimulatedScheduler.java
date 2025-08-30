@@ -26,7 +26,7 @@ public class SimulatedScheduler
             case "Test":
                 for (int i = 0; i < taskprocesses.length; i++)
                 {
-                    System.out.println(taskprocesses[i].identifer + ", " + taskprocesses[i].getBursttime());
+                    System.out.println(taskprocesses[i].identifier + ", " + taskprocesses[i].getBurstTime());
                 }
                 break;
         }
