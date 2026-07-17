@@ -1,5 +1,5 @@
 @authors:    David Gonzalez & Dillon Gonzalez
-@date:       8/20/2025
+@date:       3/26/2026
 
 How to run: From the top toolbar hover over "Run" and then click "Edit Configuration." From here you will need to
             select "Application" as an option and then set main class as "SimulatedScheduler" and add in the
