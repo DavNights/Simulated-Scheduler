@@ -1,5 +1,5 @@
-@authors:    David Gonzalez & Dillon Gonzalez
-@date:       8/20/2025
+@authors:    David Gonzalez
+@date:       7/17/2026
 
 How to run: From the top toolbar hover over "Run" and then click "Edit Configuration." From here you will need to
             select "Application" as an option and then set main class as "SimulatedScheduler" and add in the
@@ -14,9 +14,6 @@ Proj Scope: - Create a functional scheduler for SJF, FIFO & Round-Robin
             - Schedulers will use processes of "p1, p2, p3" as en example to work with.
             - Utilize quantum numbers for Round-Robin
             - Round-Robin COULD instead of using a fixed quantum use a dynamic time quantum. (Try fixed initially)
-            - Project will focus on the algorithm & understanding of schedulers and not applying
-                them to any real-word scenario in this project.
-
 
 Further explanation on dynamic quantum time:
 
@@ -28,3 +25,8 @@ Further explanation on dynamic quantum time:
             of our processes at certain intervals or whenever the ready queue changes to calculate
             the average of the remaining burst times for all processes currently in queue. This,
             calculated average would be the new time quantum for next scheduling cycle.
+
+Math to verify functionality of RoundRobin with a dynamic quantum:
+
+            For each individual line shown in the output, ensure that the follow is true,
+            Waiting Time = Turnaround Time - Burst Time.

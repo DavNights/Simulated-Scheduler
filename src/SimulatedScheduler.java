@@ -35,7 +35,7 @@ public class SimulatedScheduler
         // SimulatedScheduler FIFO 15 2 3 4 5
     }
 
-    //turns array of strings into an array of processes, with correct identifiers. See @TaskProcess to see how they are assigned.
+    // Turns array of strings into an array of processes, with correct identifiers. See @TaskProcess to see how they are assigned.
     private static TaskProcess[] compileProcceses(String[] array)
     {
         TaskProcess[] taskprocessarray = new TaskProcess[array.length];
